@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey|Friend Finder App</title>
+    <!--Reset CSS-->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--CSS Main File-->
+    <link rel="stylesheet" href="../css/style.css">
+     <!-- Link to the jQuery Library -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      
+      <!-- Compiled and minified Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+
+	<!-- Compiled and minified Materialize JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+</head>
+<body>
+<h1>Give your honest answer to find your friend</h1>
+<div id="container">
+<h3>Answer below questions:</h3>
+<div id="surveyquestion">
+						<div class="input-field col s6">
+							<h5>Name (Required)</h5>
+							<input type="text" class="validate" placeholder="Your Name Here" id="userName">
+						</div>
+
+						<div class="input-field col s6">
+							<h5> Photo Image (Required)</h5>
+							<input type="text" class="validate" placeholder="Paste your Img Link Here" id="userPhoto" size="85">
+						</div>
+
+						<!-- Survey Questions -->
+						<div class="input-field col s12">
+							<h5>Q1.Do you agree, In Friendship both should trust eachother?</h5>
+							<select id="question1">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q2.Do you agree, Sharing is caring?</h5>
+							<select id="question2">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q3.Do you think, Music plays great role in friendship relationship</h5>
+							<select id="question3">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q4.Friends should slove their own difference.</h5>
+							<select id="question4">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q5.You get annoyed easily</h5>
+							<select id="question5">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q6.Friends shouldn't offend other friend</h5>
+							<select id="question6">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q7.Hiking is best moments, friends can enjoy</h5>
+							<select id="question7">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q8.You appreciate your friends effort to try something</h5>
+							<select id="question8">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q9.You think friends should keeps privacy & space to eachother </h5>
+							<select id="question9">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+
+						<div class="input-field col s12">
+							<h5>Q10.You are team player</h5>
+							<select id="question10">
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">1 (Strongly Disagree)</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+                        <hr >
+						<div>
+							<button class="btn waves-effect waves-light" type="submit" name="action" id="submitButton">Submit Responses
+							</button>
+                        </div>
+                        
+</div>
+</div>
+
+<!-- Modal Dialog Displaying Closest Friend Match -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>Closest Friend Match</h4>
+        <h5 id="userMatch"></h5>
+        <img id="userMatchImage" class="materialboxed" width="650" src="">
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('select').material_select();
+
+        $('.modal').modal({
+            dismissible: false, // Modal can be dismissed by clicking outside of the modal
+            opacity: .5, // Opacity of modal background
+            inDuration: 300, // Transition in duration
+            outDuration: 200, // Transition out duration
+            startingTop: '4%', // Starting top style attribute
+            endingTop: '10%' // Ending top style attribute
+        });
+    });
+
+    // Activate submit button
+    $('#submitButton').on('click', function(event) {
+        event.preventDefault();
+
+        // Gather user inputs
+        var userInput = {
+            name: $('#userName').val().trim(),
+            photo: $('#userPhoto').val().trim(),
+            scores:[
+                $('#question1').val().trim(),
+                $('#question2').val().trim(),
+                $('#question3').val().trim(),
+                $('#question4').val().trim(),
+                $('#question5').val().trim(),
+                $('#question6').val().trim(),
+                $('#question7').val().trim(),
+                $('#question8').val().trim(),
+                $('#question9').val().trim(),
+                $('#question10').val().trim()
+            ]
+        };
+
+        // console.log('userInput = ' + JSON.stringify(userInput));
+
+        // Add user inputs to friends list
+        $.post('/api/friends', userInput)
+          .done(function(data) {
+              // console.log('response = ' + JSON.stringify(data));
+
+              // Set the name and image values of friend match
+              $('#userMatch').html(data.matchName);
+            $("#userMatchImage").attr("src", data.matchImage);
+
+            // Pop open the modal dialog
+              $('#modal1').modal('open');
+          });
+    });
+</script>
+</body>
+</html>

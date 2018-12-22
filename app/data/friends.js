@@ -1,0 +1,169 @@
+// Data Structure 
+var friendsArray = [
+{
+    name:'Adam',
+    photo:'https://cdn.pixabay.com/photo/2017/08/25/05/00/cartoon-character-2679133_1280.jpg',
+    scores:[
+        '3',
+        '4',
+        '5',
+        '2',
+        '1',
+        '3',
+        '5',
+        '4',
+        '5',
+        '1'
+    ]
+},
+{
+    name:'FitGirl',
+    photo:'https://cdn.pixabay.com/photo/2014/12/20/09/18/running-573762_1280.jpg',
+    scores:[
+        '2',
+        '3',
+        '4',
+        '1',
+        '2',
+        '3',
+        '4',
+        '2',
+        '3',
+        '4'
+    ]
+
+},
+{
+    name:'FitGuy',
+    photo:'https://cdn.pixabay.com/photo/2017/08/25/05/00/cartoon-character-2679133_1280.jpg',
+    scores:[
+        '2',
+        '1',
+        '2',
+        '3',
+        '4',
+        '5',
+        '2',
+        '3',
+        '4',
+        '2'
+    ]
+},
+{
+    name:'DJ',
+    photo:'https://cdn.pixabay.com/photo/2016/06/11/12/13/pink-hair-1450045_1280.jpg',
+    scores:[
+        '2',
+        '2',
+        '1',
+        '2',
+        '4',
+        '4',
+        '5',
+        '2',
+        '3',
+        '1'
+    ]
+
+},
+{
+    name:'Aqua',
+    photo:'https://cdn.pixabay.com/photo/2018/07/28/07/52/rain-3567448_1280.jpg',
+    scores:[
+        '2',
+        '2',
+        '3',
+        '4',
+        '1',
+        '2',
+        '3',
+        '4',
+        '5',
+        '1'
+    ]
+},
+{
+    name:'Neal',
+    photo:'https://cdn.pixabay.com/photo/2015/10/12/15/12/person-984282_1280.jpg',
+    scores:[
+        '5',
+        '2',
+        '3',
+        '4',
+        '1',
+        '2',
+        '3',
+        '2',
+        '3',
+        '1'
+    ]
+
+},
+{
+    name:'Sunshine',
+    photo:'https://cdn.pixabay.com/photo/2015/01/07/15/51/woman-591576_1280.jpg',
+    scores:[
+        '4',
+        '2',
+        '3',
+        '5',
+        '2',
+        '3',
+        '4',
+        '2',
+        '1',
+        '5'
+    ]
+},
+{
+    name:'Sky',
+    photo:'https://cdn.pixabay.com/photo/2016/01/19/17/45/hiker-1149877_1280.jpg',
+    scores:[
+        '2',
+        '1',
+        '3',
+        '4',
+        '1',
+        '3',
+        '2',
+        '4',
+        '3',
+        '1'
+    ]
+},
+{
+    name:'Beauti',
+    photo:'https://cdn.pixabay.com/photo/2016/04/10/21/34/woman-1320810_1280.jpg',
+    scores:[
+        '5',
+        '4',
+        '2',
+        '3',
+        '1',
+        '5',
+        '5',
+        '2',
+        '5',
+        '3'
+    ]
+},
+{
+    name:'John',
+    photo:'https://cdn.pixabay.com/photo/2017/06/28/04/29/adult-2449725_1280.jpg',
+    scores:[
+        '4',
+        '5',
+        '3',
+        '1',
+        '2',
+        '3',
+        '4',
+        '5',
+        '2',
+        '3'
+    ]
+}
+
+];
+
+module.exports = friendsArray;
